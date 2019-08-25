@@ -1,0 +1,15 @@
+{
+	"name":"System Hook View",
+	"namespace":"SystemHookView",
+	"description":"Test hook",
+	"author":"JIHAD SINNAOUR",
+	"version":"1.0.0",
+	"router":[
+		{
+	        "method": "GET",
+	        "route": "/module/system/hook/",
+	        "controller": "WordPressFeedModule@doAjaxThing",
+	        "name": ""
+		}
+	]
+}

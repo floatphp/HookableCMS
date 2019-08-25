@@ -1,0 +1,28 @@
+{
+	"name":"System Plugin",
+	"namespace":"SystemPlugin",
+	"description":"System Plugin",
+	"author":"JIHAD SINNAOUR",
+	"type":"system",
+	"version":"1.0.0",
+	"router":[
+		{
+	        "method": "GET",
+	        "route": "/plugin/",
+	        "controller": "SystemPluginModule@list",
+	        "name": "listPlugin"
+		},
+		{
+	        "method": "POST",
+	        "route": "/plugin/enable/",
+	        "controller": "SystemPluginModule@enable",
+	        "name": "enablePlugin"
+		},
+		{
+	        "method": "POST",
+	        "route": "/plugin/disable/",
+	        "controller": "SystemPluginModule@disable",
+	        "name": "disablePlugin"
+		}
+	]
+}

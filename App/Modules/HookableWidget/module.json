@@ -1,0 +1,15 @@
+{
+	"name":"Hookable Widget",
+	"namespace":"HookableWidget",
+	"description":"Hookable Widget Example Description",
+	"author":"Jihad Sinnaour",
+	"version":"1.0.0",
+	"router":[
+		{
+	        "method": "GET",
+	        "route": "/module/system/example/",
+	        "controller": "HookableWidget@getExample",
+	        "name": "getExample"
+		}
+	]
+}

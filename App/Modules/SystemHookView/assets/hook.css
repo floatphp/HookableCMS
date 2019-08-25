@@ -1,0 +1,37 @@
+.hook-section {
+    background: blueviolet;
+}
+.hook-section .title {
+    color: white;
+}
+.hook-section p {
+    color: white;
+}
+.hook {
+    background: #a0a0a0;
+    padding: 10px 0;
+    margin: 10px 10px;
+    border-radius: 4px;
+}
+.hook p {
+    margin: 0;
+    color: #ffffff;
+}
+.hook.hook-blue {
+    background: #2196F3;
+}
+
+.hook.hook-green {
+    background: #8BC34A;
+}
+
+.hook.hook-orange {
+    background: #FF5722;
+}
+
+.hook.hook-purpel {
+    background: #673AB7;
+}
+.hookable-css {
+    color: #FF9800;
+}
